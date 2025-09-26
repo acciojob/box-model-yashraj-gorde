@@ -1,20 +1,10 @@
-/*  your css code here. If applicable */
-.container {
-  width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: lightgray;
-  border: 2px solid black;
-  border-radius: 20px;
-  text-align: center;
-}
-
 .red, .green, .yellow {
   width: 70px;
   height: 70px;
   border-radius: 50%;
   display: inline-block;
   margin: 0 10px;
+  border: 1px solid black; /* ensures 'border' property exists */
 }
 
 .green {
